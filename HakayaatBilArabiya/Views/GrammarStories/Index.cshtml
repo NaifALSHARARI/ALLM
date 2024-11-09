@@ -1,0 +1,128 @@
+﻿@{
+    ViewData["Title"] = "قصص نحوية";
+}
+
+<style>
+    body {
+        background-color: #e0f7fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        color: #ff5722;
+        margin-top: 20px;
+    }
+
+    .container {
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+
+    form {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 10px;
+    }
+
+    label {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    select {
+        width: 60%;
+        padding: 10px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .story-box {
+        border: 1px solid #ddd;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-align: right;
+        line-height: 1.6;
+    }
+
+    .legend-container {
+        margin-top: 20px;
+        padding: 15px;
+        background-color: #f1f1f1;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        text-align: right;
+        line-height: 1.8;
+    }
+
+    .legend span {
+        display: inline-block;
+        margin-right: 10px;
+    }
+</style>
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+
+    <form asp-action="Index" method="post">
+        <label for="topic" class="speakable" onclick="speakText(this.innerText)">اختر موضوعًا نحويًا:</label>
+        <select id="topic" name="topic" class="speakable" onchange="speakText(this.options[this.selectedIndex].text)">
+            <option value="">-- اختر موضوعًا --</option>
+            <option value="الفرق بين المذكر والمؤنث في الجمل">الفرق بين المذكر والمؤنث</option>
+            <option value="استخدام الأفعال في الزمن الماضي والمضارع والمستقبل">استخدام الأزمنة</option>
+        </select>
+        <button type="submit" class="speakable" onclick="speakText('توليد القصة')">توليد القصة</button>
+    </form>
+
+    @if (ViewBag.Story != null)
+    {
+        <h2>القصة النحوية:</h2>
+        <div class="story-box speakable" onmouseover="speakText(this.innerText)">
+            @Html.Raw(ViewBag.Story)
+        </div>
+
+        <div class="legend-container">
+            <span class="legend-title">دليل الألوان:</span><br />
+            <span style="color:blue;" onmouseover="speakText('الكلمات باللون الأزرق: مذكر')">الكلمات باللون الأزرق: مذكر</span><br />
+            <span style="color:purple;" onmouseover="speakText('الكلمات باللون البنفسجي: مؤنث')">الكلمات باللون البنفسجي: مؤنث</span><br />
+            <span style="color:green;" onmouseover="speakText('الأفعال باللون الأخضر: زمن الماضي')">الأفعال باللون الأخضر: زمن الماضي</span><br />
+            <span style="color:orange;" onmouseover="speakText('الأفعال باللون البرتقالي: زمن المضارع')">الأفعال باللون البرتقالي: زمن المضارع</span><br />
+        </div>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <p style="color:red;" onmouseover="speakText('@ViewBag.Error')">@ViewBag.Error</p>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function speakText(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'ar';
+            speech.rate = 1; 
+            speechSynthesis.cancel(); 
+            speechSynthesis.speak(speech);
+        }
+
+        document.querySelectorAll('.speakable').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                speakText(element.innerText);
+            });
+        });
+    </script>
+}

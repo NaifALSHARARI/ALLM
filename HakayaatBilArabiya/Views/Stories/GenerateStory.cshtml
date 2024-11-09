@@ -1,0 +1,314 @@
+﻿@model HakayaatBilArabiya.Models.StoryInputModel
+
+@{
+    ViewData["Title"] = "Generate Story";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="/css/Stories.css" />
+    <style>
+        body {
+            background-color: #d4f0f9;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff7f50;
+            font-size: 48px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 24px;
+            margin-bottom: 10px;
+            display: block;
+            color: #333;
+        }
+
+        input[type="text"], textarea, select {
+            width: 60%;
+            font-size: 18px;
+            padding: 10px;
+            border: 2px solid #ff7f50;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        textarea {
+            height: 100px;
+            resize: none;
+        }
+
+        button {
+            background-color: #ff7f50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 24px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+
+            button:hover {
+                background-color: #e45e30;
+            }
+
+        .category-title {
+            color: #80c4e9;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .category-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .category-item {
+            width: 150px;
+            text-align: center;
+            color: #ff7f50;
+            font-size: 20px;
+            cursor: pointer;
+            position: relative;
+        }
+
+            .category-item img {
+                width: 150px;
+                height: 150px;
+                border-radius: 10px;
+                object-fit: cover;
+                transition: transform 0.2s;
+            }
+
+            .category-item.selected img {
+                border: 4px solid #ff7f50;
+                transform: scale(1.05);
+            }
+
+        .section {
+            margin-top: 50px;
+        }
+
+        .side-options {
+            margin-top: 40px;
+            background-color: #e8f7f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            width: 60%;
+            margin: 40px auto;
+        }
+    </style>
+}
+
+<h2 class="speakable" onclick="speakText(this.innerText)">إنشاء قصة جديدة</h2>
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger speakable" onclick="speakText(this.innerText)">
+        @ViewBag.Error
+    </div>
+}
+
+<form asp-action="GenerateStory" method="post">
+    @Html.HiddenFor(m => m.Characters, new { id = "Characters" })
+    @Html.HiddenFor(m => m.Animals, new { id = "Animals" })
+    @Html.HiddenFor(m => m.Place, new { id = "Place" })
+    @Html.HiddenFor(m => m.Season, new { id = "Season" })
+    @Html.HiddenFor(m => m.Time, new { id = "Time" })
+
+    <div class="section">
+        <div class="category-title speakable" onclick="speakText(this.innerText)">اختر الشخصيات</div>
+        <div class="category-section">
+            <div class="category-item speakable" onclick="addToField('Characters', 'الأصدقاء', this); speakText('الأصدقاء')">
+                <img src="~/images/friends.jpg" alt="الأصدقاء">
+                <div>الأصدقاء</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Characters', 'المعلم', this); speakText('المعلم')">
+                <img src="~/images/teacher.jpg" alt="المعلم">
+                <div>المعلم</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Characters', 'الإخوان', this); speakText('الإخوان')">
+                <img src="~/images/siblings.jpg" alt="الإخوان">
+                <div>الإخوان</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Characters', 'الوالدين', this); speakText('الوالدين')">
+                <img src="~/images/parents.jpg" alt="الوالدين">
+                <div>الوالدين</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title speakable" onclick="speakText(this.innerText)">اختر الحيوانات</div>
+        <div class="category-section">
+            <div class="category-item speakable" onclick="addToField('Animals', 'البطة', this); speakText('البطة')">
+                <img src="~/images/duck.jpg" alt="البطة">
+                <div>البطة</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Animals', 'الفيل', this); speakText('الفيل')">
+                <img src="~/images/elephant.jpg" alt="الفيل">
+                <div>الفيل</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Animals', 'الزرافة', this); speakText('الزرافة')">
+                <img src="~/images/giraffe.jpg" alt="الزرافة">
+                <div>الزرافة</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Animals', 'الأسد', this); speakText('الأسد')">
+                <img src="~/images/lion.jpg" alt="الأسد">
+                <div>الأسد</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title speakable" onclick="speakText(this.innerText)">اختر مكان القصة</div>
+        <div class="category-section">
+            <div class="category-item speakable" onclick="addToField('Place', 'الغابة', this); speakText('الغابة')">
+                <img src="~/images/forest.jpg" alt="الغابة">
+                <div>الغابة</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Place', 'المنزل', this); speakText('المنزل')">
+                <img src="~/images/home.jpg" alt="المنزل">
+                <div>المنزل</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Place', 'المدرسة', this); speakText('المدرسة')">
+                <img src="~/images/school.jpg" alt="المدرسة">
+                <div>المدرسة</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Place', 'الحديقة', this); speakText('الحديقة')">
+                <img src="~/images/park.jpg" alt="الحديقة">
+                <div>الحديقة</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title speakable" onclick="speakText(this.innerText)">اختر موسم القصة</div>
+        <div class="category-section">
+            <div class="category-item speakable" onclick="addToField('Season', 'الخريف', this); speakText('الخريف')">
+                <img src="~/images/autumn.jpg" alt="الخريف">
+                <div>الخريف</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Season', 'الربيع', this); speakText('الربيع')">
+                <img src="~/images/spring.jpg" alt="الربيع">
+                <div>الربيع</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Season', 'الشتاء', this); speakText('الشتاء')">
+                <img src="~/images/winter.jpg" alt="الشتاء">
+                <div>الشتاء</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Season', 'الصيف', this); speakText('الصيف')">
+                <img src="~/images/summer.jpg" alt="الصيف">
+                <div>الصيف</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="category-title speakable" onclick="speakText(this.innerText)">اختر وقت القصة</div>
+        <div class="category-section">
+            <div class="category-item speakable" onclick="addToField('Time', 'المساء', this); speakText('المساء')">
+                <img src="~/images/night.jpg" alt="المساء">
+                <div>المساء</div>
+            </div>
+            <div class="category-item speakable" onclick="addToField('Time', 'الصباح', this); speakText('الصباح')">
+                <img src="~/images/morning.jpg" alt="الصباح">
+                <div>الصباح</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="side-options">
+        <h4 class="speakable" onclick="speakText(this.innerText)">اختيارات جانبية لتحسين القصة (اختياري):</h4>
+
+        <label for="Style" class="speakable" onclick="speakText(this.innerText)">الأسلوب:</label>
+        @Html.DropDownListFor(m => m.Style, new List<SelectListItem>
+        {
+        new SelectListItem { Text = "مشوق ومليء بالمغامرات", Value = "مشوق ومليء بالمغامرات" },
+        new SelectListItem { Text = "تعليمي بسيط", Value = "تعليمي بسيط" },
+        new SelectListItem { Text = "فكاهي ومرح", Value = "فكاهي ومرح" },
+        new SelectListItem { Text = "درامي مؤثر", Value = "درامي مؤثر" },
+        new SelectListItem { Text = "خيالي وساحر", Value = "خيالي وساحر" }
+        }, "اختر الأسلوب", new { @style = "width: 60%; font-size: 18px; padding: 10px; border: 2px solid #ff7f50; border-radius: 8px; text-align: right;", @class = "speakable", onchange = "speakText(this.value)" })
+
+        <label for="MoralValue" class="speakable" onclick="speakText(this.innerText)">القيمة الأخلاقية:</label>
+        @Html.DropDownListFor(m => m.MoralValue, new List<SelectListItem>
+        {
+        new SelectListItem { Text = "الصداقة والتعاون", Value = "الصداقة والتعاون" },
+        new SelectListItem { Text = "الأمانة والصدق", Value = "الأمانة والصدق" },
+        new SelectListItem { Text = "الشجاعة والمثابرة", Value = "الشجاعة والمثابرة" },
+        new SelectListItem { Text = "احترام الآخرين", Value = "احترام الآخرين" },
+        new SelectListItem { Text = "المحافظة على البيئة", Value = "المحافظة على البيئة" }
+        }, "اختر القيمة الأخلاقية", new { @style = "width: 60%; font-size: 18px; padding: 10px; border: 2px solid #ff7f50; border-radius: 8px; text-align: right;", @class = "speakable", onchange = "speakText(this.value)" })
+    </div>
+
+    <div class="section">
+        @Html.LabelFor(m => m.ManualInput, new { @class = "speakable", onclick = "speakText('ادخل قصتك الخاصة هنا...')" })
+        @Html.TextAreaFor(m => m.ManualInput, new { rows = 4, cols = 50, placeholder = "ادخل قصتك الخاصة هنا...", @style = "width: 60%; font-size: 18px; padding: 10px; border: 2px solid #ff7f50; border-radius: 8px; text-align: right;", @class = "speakable", onclick = "speakText(this.value)" })
+    </div>
+
+    <button type="submit" class="speakable" onclick="speakText('إنشاء قصة')">إنشاء قصة</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addToField(fieldId, value, element) {
+            var field = document.getElementById(fieldId);
+            var selectedItems = field.value ? field.value.split(', ') : [];
+
+            if (selectedItems.includes(value)) {
+                selectedItems = selectedItems.filter(function (item) {
+                    return item !== value;
+                });
+                element.classList.remove('selected');
+            } else {
+                selectedItems.push(value);
+                element.classList.add('selected');
+            }
+
+            field.value = selectedItems.join(', ');
+
+            updateManualInput();
+        }
+
+        function updateManualInput() {
+            var manualInput = document.getElementById('ManualInput');
+
+            var fields = ['Characters', 'Animals', 'Place', 'Season', 'Time', 'Style', 'MoralValue'];
+            var allSelections = [];
+
+            fields.forEach(function (fieldId) {
+                var field = document.getElementById(fieldId);
+                if (field && field.value) {
+                    allSelections.push(field.value);
+                }
+            });
+
+            var combinedSelections = allSelections.join(', ');
+
+            manualInput.value = combinedSelections;
+        }
+
+        function speakText(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'ar';
+            speechSynthesis.cancel(); 
+            speechSynthesis.speak(speech);
+        }
+
+        document.querySelectorAll('.speakable').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                speakText(element.innerText);
+            });
+        });
+    </script>
+}

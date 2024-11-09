@@ -1,0 +1,58 @@
+﻿@model List<EducationalGame>
+
+<div class="games-container">
+    @foreach (var game in Model)
+    {
+        <div class="game-box">
+            <img src="@game.ImageUrl" alt="Game Image" class="game-image" />
+            <p class="game-prompt">أكمل الحرف الناقص: @game.WordWithMissingLetter</p>
+            <div class="options">
+                @foreach (var choice in game.Choices)
+                {
+                    <button class="option-button animated-button" data-correct="@game.CorrectLetter">@choice</button>
+                }
+            </div>
+        </div>
+    }
+</div>
+
+<div id="message" class="hidden"></div>
+
+<audio id="correct-sound" src="~/sounds/correct.m4a" preload="auto"></audio>
+<audio id="wrong-sound" src="~/sounds/wrong.m4a" preload="auto"></audio>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.option-button').forEach(button => {
+            button.addEventListener('click', function () {
+                let correctLetter = button.getAttribute('data-correct');
+                let messageBox = document.getElementById('message');
+                let correctSound = document.getElementById('correct-sound');
+                let wrongSound = document.getElementById('wrong-sound');
+
+                // إضافة تأثير عند الضغط على الأزرار
+                button.classList.add('clicked');
+                setTimeout(() => button.classList.remove('clicked'), 300);
+
+                if (button.textContent === correctLetter) {
+                    correctSound.play();
+                    messageBox.textContent = 'إجابة صحيحة!';
+                    messageBox.className = 'message success animated-message';
+                } else {
+                    wrongSound.play();
+                    messageBox.textContent = 'إجابة خاطئة، حاول مرة أخرى!';
+                    messageBox.className = 'message error animated-message';
+                }
+
+                messageBox.classList.remove('hidden');
+
+                // إخفاء الرسالة بعد 3 ثواني
+                setTimeout(() => {
+                    messageBox.classList.add('hidden');
+                }, 3000);
+            });
+        });
+    </script>
+}
+
+<link rel="stylesheet" href="~/css/Games.css" />

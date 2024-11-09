@@ -1,0 +1,613 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HakayaatBilArabiya.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HakayaatBilArabiya.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\07cb7c8e-724d-4d2d-8a0d-fc9aa4334ef4.mp3",
+      "PackagePath": "staticwebassets\\audio\\07cb7c8e-724d-4d2d-8a0d-fc9aa4334ef4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\07ddcb37-b45a-4340-8287-f0d441326b64.mp3",
+      "PackagePath": "staticwebassets\\audio\\07ddcb37-b45a-4340-8287-f0d441326b64.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\0bd635ee-6711-4d8d-8a1c-0a7d5b310b4e.mp3",
+      "PackagePath": "staticwebassets\\audio\\0bd635ee-6711-4d8d-8a1c-0a7d5b310b4e.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\283847be-c2be-4cb2-b736-07ee39c64731.mp3",
+      "PackagePath": "staticwebassets\\audio\\283847be-c2be-4cb2-b736-07ee39c64731.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\2fc4c150-9a29-444f-9f9c-dbb8ac9dfde4.mp3",
+      "PackagePath": "staticwebassets\\audio\\2fc4c150-9a29-444f-9f9c-dbb8ac9dfde4.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\3b69e683-9ef3-4637-a2ff-d584ab697b64.mp3",
+      "PackagePath": "staticwebassets\\audio\\3b69e683-9ef3-4637-a2ff-d584ab697b64.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\3e33ad07-5637-48e8-a513-b01b663b0042.mp3",
+      "PackagePath": "staticwebassets\\audio\\3e33ad07-5637-48e8-a513-b01b663b0042.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\40e21e45-d7ec-4a61-acb1-74c81ab60c1f.mp3",
+      "PackagePath": "staticwebassets\\audio\\40e21e45-d7ec-4a61-acb1-74c81ab60c1f.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\56c3a95c-8fe7-47a6-af8e-b95e4c5509a5.mp3",
+      "PackagePath": "staticwebassets\\audio\\56c3a95c-8fe7-47a6-af8e-b95e4c5509a5.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\58e27594-d96d-4348-bbf9-cd74920d35bd.mp3",
+      "PackagePath": "staticwebassets\\audio\\58e27594-d96d-4348-bbf9-cd74920d35bd.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\599f0ca2-767c-4316-888c-689f16771bd1.mp3",
+      "PackagePath": "staticwebassets\\audio\\599f0ca2-767c-4316-888c-689f16771bd1.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\5ea82509-ab44-4092-b3f5-73660e2ecf2e.mp3",
+      "PackagePath": "staticwebassets\\audio\\5ea82509-ab44-4092-b3f5-73660e2ecf2e.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\63d8c871-e480-4774-b829-0262797bb217.mp3",
+      "PackagePath": "staticwebassets\\audio\\63d8c871-e480-4774-b829-0262797bb217.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\6fbd029d-13d1-415f-8c34-d7a434b53134.mp3",
+      "PackagePath": "staticwebassets\\audio\\6fbd029d-13d1-415f-8c34-d7a434b53134.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\791f0a77-830e-4fbb-bf06-3d2fba4b5a46.mp3",
+      "PackagePath": "staticwebassets\\audio\\791f0a77-830e-4fbb-bf06-3d2fba4b5a46.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\88736856-b7e6-4a5b-8450-30c61284efa3.mp3",
+      "PackagePath": "staticwebassets\\audio\\88736856-b7e6-4a5b-8450-30c61284efa3.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\8bfe7b04-e3ea-460c-9a78-0f0d286c91f2.mp3",
+      "PackagePath": "staticwebassets\\audio\\8bfe7b04-e3ea-460c-9a78-0f0d286c91f2.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\8c74f20b-51c2-46f6-8990-9f8c7d9d98bf.mp3",
+      "PackagePath": "staticwebassets\\audio\\8c74f20b-51c2-46f6-8990-9f8c7d9d98bf.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\9ecf2872-f65d-4c5a-bd20-c533b555565d.mp3",
+      "PackagePath": "staticwebassets\\audio\\9ecf2872-f65d-4c5a-bd20-c533b555565d.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\a96625e1-bdc4-49af-bff1-7be2b45001f7.mp3",
+      "PackagePath": "staticwebassets\\audio\\a96625e1-bdc4-49af-bff1-7be2b45001f7.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\bfb78745-f103-4cc9-96db-ef0a28b90c94.mp3",
+      "PackagePath": "staticwebassets\\audio\\bfb78745-f103-4cc9-96db-ef0a28b90c94.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\e4b4505a-28ce-4c55-93ae-2f968302e553.mp3",
+      "PackagePath": "staticwebassets\\audio\\e4b4505a-28ce-4c55-93ae-2f968302e553.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\ef1b3910-75b8-4b2a-9180-119a9da18b17.mp3",
+      "PackagePath": "staticwebassets\\audio\\ef1b3910-75b8-4b2a-9180-119a9da18b17.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\ef3b5ac3-6f05-46d1-9439-23e27943c131.mp3",
+      "PackagePath": "staticwebassets\\audio\\ef3b5ac3-6f05-46d1-9439-23e27943c131.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\audio\\lesson.mp3",
+      "PackagePath": "staticwebassets\\audio\\lesson.mp3"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\credentials\\google-credentials.json",
+      "PackagePath": "staticwebassets\\credentials\\google-credentials.json"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\css\\Games.css",
+      "PackagePath": "staticwebassets\\css\\Games.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\css\\Layout.css",
+      "PackagePath": "staticwebassets\\css\\Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\css\\Stories.css",
+      "PackagePath": "staticwebassets\\css\\Stories.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\fonts\\Blabeloo.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Blabeloo.ttf"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\3.png",
+      "PackagePath": "staticwebassets\\images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\333.png",
+      "PackagePath": "staticwebassets\\images\\333.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\4444.jpg",
+      "PackagePath": "staticwebassets\\images\\4444.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\55.png",
+      "PackagePath": "staticwebassets\\images\\55.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\56.png",
+      "PackagePath": "staticwebassets\\images\\56.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\airplane.png",
+      "PackagePath": "staticwebassets\\images\\airplane.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\apple.jpg",
+      "PackagePath": "staticwebassets\\images\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\autumn.jpg",
+      "PackagePath": "staticwebassets\\images\\autumn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\ball.jpg",
+      "PackagePath": "staticwebassets\\images\\ball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\bike.jpg",
+      "PackagePath": "staticwebassets\\images\\bike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\camel.jpg",
+      "PackagePath": "staticwebassets\\images\\camel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\car.png",
+      "PackagePath": "staticwebassets\\images\\car.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\cartoon-background.jpg",
+      "PackagePath": "staticwebassets\\images\\cartoon-background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\cat.jpg",
+      "PackagePath": "staticwebassets\\images\\cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\character.gif",
+      "PackagePath": "staticwebassets\\images\\character.gif"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\character.jpg",
+      "PackagePath": "staticwebassets\\images\\character.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\dripping-footer.png",
+      "PackagePath": "staticwebassets\\images\\dripping-footer.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\dripping.png",
+      "PackagePath": "staticwebassets\\images\\dripping.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\duck.jpg",
+      "PackagePath": "staticwebassets\\images\\duck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\elephant.jpg",
+      "PackagePath": "staticwebassets\\images\\elephant.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\flower.png",
+      "PackagePath": "staticwebassets\\images\\flower.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\forest.jpg",
+      "PackagePath": "staticwebassets\\images\\forest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\forward.png",
+      "PackagePath": "staticwebassets\\images\\forward.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\friends.jpg",
+      "PackagePath": "staticwebassets\\images\\friends.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\fruits.jpg",
+      "PackagePath": "staticwebassets\\images\\fruits.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\giraffe.jpg",
+      "PackagePath": "staticwebassets\\images\\giraffe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\giraffe.png",
+      "PackagePath": "staticwebassets\\images\\giraffe.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\home.jpg",
+      "PackagePath": "staticwebassets\\images\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\house.jpg",
+      "PackagePath": "staticwebassets\\images\\house.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\lion.jpg",
+      "PackagePath": "staticwebassets\\images\\lion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\logo2.png",
+      "PackagePath": "staticwebassets\\images\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\morning.jpg",
+      "PackagePath": "staticwebassets\\images\\morning.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\mute.png",
+      "PackagePath": "staticwebassets\\images\\mute.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\night.jpg",
+      "PackagePath": "staticwebassets\\images\\night.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\parents.jpg",
+      "PackagePath": "staticwebassets\\images\\parents.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\park.jpg",
+      "PackagePath": "staticwebassets\\images\\park.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\pause.png",
+      "PackagePath": "staticwebassets\\images\\pause.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\play.png",
+      "PackagePath": "staticwebassets\\images\\play.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\rewind.png",
+      "PackagePath": "staticwebassets\\images\\rewind.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\rose.png",
+      "PackagePath": "staticwebassets\\images\\rose.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\school.jpg",
+      "PackagePath": "staticwebassets\\images\\school.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\siblings.jpg",
+      "PackagePath": "staticwebassets\\images\\siblings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\spring.jpg",
+      "PackagePath": "staticwebassets\\images\\spring.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\star-left.png",
+      "PackagePath": "staticwebassets\\images\\star-left.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\star-right.png",
+      "PackagePath": "staticwebassets\\images\\star-right.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\summer.jpg",
+      "PackagePath": "staticwebassets\\images\\summer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\teacher.jpg",
+      "PackagePath": "staticwebassets\\images\\teacher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\tree.jpg",
+      "PackagePath": "staticwebassets\\images\\tree.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\unmute.png",
+      "PackagePath": "staticwebassets\\images\\unmute.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\winter.jpg",
+      "PackagePath": "staticwebassets\\images\\winter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\your-first-logo.png",
+      "PackagePath": "staticwebassets\\images\\your-first-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\your-second-logo.png",
+      "PackagePath": "staticwebassets\\images\\your-second-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\images\\your-third-logo.png",
+      "PackagePath": "staticwebassets\\images\\your-third-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\sounds\\correct.m4a",
+      "PackagePath": "staticwebassets\\sounds\\correct.m4a"
+    },
+    {
+      "Id": "C:\\Users\\iimna\\Desktop\\LASST FINALLY FI\\‏‏HakayaatBilArabiya 4v3 - نسخة\\‏‏HakayaatBilArabiya 3v2v1 - نسخة\\HakayaatBilArabiya\\HakayaatBilArabiya\\wwwroot\\sounds\\wrong.m4a",
+      "PackagePath": "staticwebassets\\sounds\\wrong.m4a"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HakayaatBilArabiya.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HakayaatBilArabiya.props",
+      "PackagePath": "build\\HakayaatBilArabiya.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HakayaatBilArabiya.props",
+      "PackagePath": "buildMultiTargeting\\HakayaatBilArabiya.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HakayaatBilArabiya.props",
+      "PackagePath": "buildTransitive\\HakayaatBilArabiya.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

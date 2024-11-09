@@ -1,0 +1,135 @@
+﻿@model IEnumerable<HakayaatBilArabiya.Models.Story>
+
+@{
+    ViewData["Title"] = "Stories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <link rel="stylesheet" href="/css/Stories.css" />
+}
+
+<div class="container">
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/333.png" alt="Logo 3" style="width: 90px; height: 90px; position: absolute; top: -90px; left: 300px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/56.png" alt="Logo 56" style="width: 70px; height: 70px; position: absolute; top: -90px; left: 900px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/rose.png" alt="Logo Rose" style="width: 80px; height: 80px; position: absolute; top: 80px; left: 900px;">
+    </div>
+    <div class="logo-container" style="text-align: center; margin-top: 2px; position: relative;">
+        <img src="~/images/55.png" alt="Logo 55" style="width: 65px; height: 65px; position: absolute; top: 80px; left: 200px;">
+    </div>
+
+    <h1 class="text-center story-heading">ابدأ كتابة قصتك الإبداعية اليوم!!</h1>
+    <div class="text-center mb-3">
+        <a asp-action="GenerateStory" class="btn btn-primary start-button" onclick="speakText('ابدأ')">ابدأ</a>
+    </div>
+
+    <div class="synonyms-box" style="margin-top: 20px; padding: 20px; background: linear-gradient(to right, #e0f7fa, #b2ebf2); border-radius: 15px; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+        <h2 class="text-center" style="font-family: 'Blabeloo', sans-serif; color: #00796b;">مرادفات الكلمات</h2>
+        <form asp-action="GetSynonyms" method="post" class="form-inline text-right" style="direction: rtl;">
+            <label for="word" class="mr-sm-2" aria-label="أدخل كلمة للبحث عن مرادفاتها">أدخل كلمة</label>
+            <input type="text" id="word" name="word" placeholder="أدخل كلمة" class="form-control mb-2 mr-sm-2" required />
+            <button type="button" class="btn btn-secondary mb-2" id="voiceSearchButton" onmouseover="speakText('اضغط للبحث الصوتي عن المرادفات')">🎤 البحث الصوتي</button>
+            <button type="submit" class="btn btn-primary mb-2">ابحث عن المرادفات</button>
+        </form>
+        @if (ViewBag.Synonyms != null)
+        {
+            <div class="synonyms-list text-center" style="margin-top: 20px;">
+                <h4 style="color: #00796b;">المرادفات لكلمة '@ViewBag.Word':</h4>
+                <ul class="list-unstyled" style="font-size: 18px; text-align: right;">
+                    @foreach (var synonym in ViewBag.Synonyms as List<string>)
+                    {
+                        <li style="margin-bottom: 10px; color: #004d40;" onmouseover="speakText('@synonym')">@Html.Raw(synonym)</li>
+                    }
+                </ul>
+            </div>
+        }
+        else if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger text-center">
+                @ViewBag.Error
+            </div>
+        }
+    </div>
+
+    <div class="story-wrapper mt-5">
+        @if (!Model.Any())
+        {
+            <div class="alert alert-info text-center">
+                لا توجد قصص متاحة حالياً. قم بإنشاء قصة جديدة!
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card story-card">
+                            <div class="card-header">
+                                <h5 class="story-title speakable" onclick="speakText(this.innerText)">
+                                    @Html.DisplayFor(modelItem => item.Title)
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="story-content">@Html.DisplayFor(modelItem => item.Content)</p>
+                            </div>
+                            <div class="card-footer text-center">
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info" onmouseover="speakText('استمع الى قصتك')">استمع الى قصتك</a>
+                                <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display: inline;">
+                                    <input type="submit" value="حذف" class="btn btn-danger" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function speakText(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'ar';
+            speech.rate = 1; 
+            speechSynthesis.cancel();
+            speechSynthesis.speak(speech);
+        }
+
+        document.querySelectorAll('.story-title, .btn, .story-card, .synonyms-list li').forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                speakText(element.innerText);
+            });
+        });
+
+        const voiceSearchButton = document.getElementById('voiceSearchButton');
+        const wordInput = document.getElementById('word');
+
+        if ('webkitSpeechRecognition' in window) {
+            const recognition = new webkitSpeechRecognition();
+            recognition.lang = 'ar-SA'; 
+
+            recognition.onresult = function (event) {
+                const transcript = event.results[0][0].transcript;
+                wordInput.value = transcript; 
+                speakText(transcript); 
+
+                const form = wordInput.closest('form');
+                form.submit(); 
+            };
+
+            voiceSearchButton.onclick = function () {
+                recognition.start();
+                speakText("يرجى قول الكلمة التي تبحث عنها.");
+            };
+        } else {
+            alert("البحث الصوتي غير مدعوم في هذا المتصفح.");
+        }
+    </script>
+}

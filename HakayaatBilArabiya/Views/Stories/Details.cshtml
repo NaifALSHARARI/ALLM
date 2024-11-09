@@ -1,0 +1,220 @@
+﻿@model HakayaatBilArabiya.Models.Story
+
+@{
+    ViewData["Title"] = @Model.Title;
+}
+
+<div class="container mt-5 text-center">
+    <h2 class="story-title speakable" onmouseenter="speakText(this.innerText)">@Model.Title</h2>
+
+    @if (!string.IsNullOrEmpty(Model.AudioPath))
+    {
+        <div class="audio-player">
+            <button class="audio-control" id="muteButton" onmouseenter="speakText('زر كتم الصوت')">
+                <img src="~/images/unmute.png" id="muteIcon" alt="Mute/Unmute" />
+            </button>
+            <input type="range" id="progressBar" class="progress-bar" value="0" min="0" step="0">
+            <button class="audio-control" id="rewindButton" onmouseenter="speakText('زر إعادة')">
+                <img src="~/images/rewind.png" alt="Rewind" />
+            </button>
+            <button class="audio-control" id="playPauseButton" onmouseenter="speakText('زر التشغيل / الإيقاف')">
+                <img src="~/images/play.png" id="playPauseIcon" alt="Play/Pause" />
+            </button>
+            <button class="audio-control" id="forwardButton" onmouseenter="speakText('زر تقديم')">
+                <img src="~/images/forward.png" alt="Forward" />
+            </button>
+        </div>
+
+        <audio id="audioPlayer" hidden>
+            <source src="@Model.AudioPath" type="audio/mpeg">
+            المتصفح الخاص بك لا يدعم عنصر الصوت.
+        </audio>
+    }
+
+    <div id="storyTextContainer" class="story-text-container decorated-border">
+        <div class="decorative-elements">
+            <img src="~/images/55.png" class="decorative-star" alt="Star">
+            <img src="~/images/56.png" class="decorative-star" alt="Star">
+            <img src="~/images/55.png" class="decorative-cloud" alt="Cloud">
+        </div>
+        <p id="storyText" class="story-text">
+            @Model.Content
+        </p>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var audio = document.getElementById('audioPlayer');
+            var progressBar = $('#progressBar');
+            var playPauseIcon = $('#playPauseIcon');
+            var muteIcon = $('#muteIcon');
+            var text = `@Model.Content`;
+            var words = text.split(' ');
+            var storyTextElement = $('#storyText');
+            var currentWordIndex = 0;
+            var wordDuration = 0;
+
+            var highlightedText = '';
+            for (var i = 0; i < words.length; i++) {
+                highlightedText += `<span id="word-${i}">${words[i]}</span> `;
+            }
+            storyTextElement.html(highlightedText);
+
+            audio.addEventListener('loadedmetadata', function () {
+                progressBar.attr('max', audio.duration);
+                wordDuration = audio.duration / words.length;
+            });
+
+            audio.addEventListener('timeupdate', function () {
+                progressBar.val(audio.currentTime);
+                var newWordIndex = Math.floor(audio.currentTime / wordDuration);
+                if (newWordIndex !== currentWordIndex && newWordIndex < words.length) {
+                    $(`#word-${currentWordIndex}`).css('background-color', 'transparent');
+                    $(`#word-${newWordIndex}`).css('background-color', '#FFDD44');
+                    currentWordIndex = newWordIndex;
+                }
+            });
+
+            progressBar.on('input', function () {
+                audio.currentTime = $(this).val();
+            });
+
+            $('#playPauseButton').on('click', function () {
+                if (audio.paused) {
+                    audio.play();
+                    playPauseIcon.attr('src', '@Url.Content("~/images/pause.png")');
+                } else {
+                    audio.pause();
+                    playPauseIcon.attr('src', '@Url.Content("~/images/play.png")');
+                }
+            });
+
+            $('#muteButton').on('click', function () {
+                audio.muted = !audio.muted;
+                muteIcon.attr('src', audio.muted ? '@Url.Content("~/images/mute.png")' : '@Url.Content("~/images/unmute.png")');
+            });
+
+            $('#rewindButton').on('click', function () {
+                audio.currentTime -= 10;
+            });
+
+            $('#forwardButton').on('click', function () {
+                audio.currentTime += 10;
+            });
+        });
+
+        function speakText(text) {
+            const speech = new SpeechSynthesisUtterance(text);
+            speech.lang = 'ar';
+            speechSynthesis.cancel();
+            speechSynthesis.speak(speech);
+        }
+    </script>
+}
+
+<style>
+    body {
+        background-color: #f0f8ff;
+    }
+
+    .audio-player {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        border: 3px solid #A0D8F1;
+        border-radius: 15px;
+        padding: 20px;
+        background: linear-gradient(145deg, #e6f7ff, #ffffff);
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .audio-control {
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.2s;
+    }
+
+        .audio-control img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .audio-control:hover {
+            transform: scale(1.15);
+        }
+
+    .progress-bar {
+        width: 60%;
+        margin: 0 20px;
+        appearance: none;
+        background: #E8E8E8;
+        border-radius: 12px;
+        height: 12px;
+        cursor: pointer;
+        outline: none;
+    }
+
+        .progress-bar::-webkit-slider-thumb {
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            background-color: #FFA500;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+    .story-text-container {
+        position: relative;
+        border: 3px solid #FFA07A;
+        border-radius: 15px;
+        padding: 30px;
+        background-color: #FFF4E6;
+        text-align: justify;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .decorative-elements {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        display: flex;
+        justify-content: space-between;
+        pointer-events: none;
+    }
+
+    .decorative-star {
+        width: 40px;
+        height: 40px;
+    }
+
+    .decorative-cloud {
+        width: 50px;
+        height: 30px;
+    }
+
+    .story-text {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #333;
+    }
+
+    .story-title {
+        font-family: 'Blabeloo', sans-serif;
+        font-size: 32px;
+        color: #6495ED;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+</style>
