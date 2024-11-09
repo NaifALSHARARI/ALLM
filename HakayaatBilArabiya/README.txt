@@ -1,5 +1,4 @@
-Here's a README.md file template in English that provides detailed information about your project, including setup instructions, key components, and functionality descriptions. This will help developers or evaluators understand the structure of the project and how to set it up and run.
-markdown
+
 # HakayaatBilArabiya Project
 
 ## Introduction
